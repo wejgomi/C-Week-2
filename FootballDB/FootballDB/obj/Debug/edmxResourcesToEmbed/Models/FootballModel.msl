@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FootballPlayersModelStoreContainer" CdmEntityContainer="FootballPlayersEntities">
+    <EntitySetMapping Name="PlayersTables">
+      <EntityTypeMapping TypeName="FootballPlayersModel.PlayersTable">
+        <MappingFragment StoreEntitySet="PlayersTable">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Place_of_Birth" ColumnName="Place of Birth" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Playing_Position" ColumnName="Playing Position" />
+          <ScalarProperty Name="Current_Team" ColumnName="Current Team" />
+          <ScalarProperty Name="National_Team" ColumnName="National Team" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

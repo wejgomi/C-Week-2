@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\Projects\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+C:\Users\student\Desktop\Projects\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+C:\Users\student\Desktop\Projects\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+C:\Users\student\Desktop\Projects\CarDealership\CarDealership\obj\Debug\CarDealership.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Projects\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+C:\Users\student\Desktop\Projects\CarDealership\CarDealership\obj\Debug\CarDealership.pdb

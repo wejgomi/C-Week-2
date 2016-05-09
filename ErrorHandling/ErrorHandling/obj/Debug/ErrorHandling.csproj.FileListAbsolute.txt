@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Projects\ErrorHandling\ErrorHandling\bin\Debug\ErrorHandling.exe.config
+C:\Users\student\Desktop\Projects\ErrorHandling\ErrorHandling\bin\Debug\ErrorHandling.exe
+C:\Users\student\Desktop\Projects\ErrorHandling\ErrorHandling\bin\Debug\ErrorHandling.pdb
+C:\Users\student\Desktop\Projects\ErrorHandling\ErrorHandling\obj\Debug\ErrorHandling.exe
+C:\Users\student\Desktop\Projects\ErrorHandling\ErrorHandling\obj\Debug\ErrorHandling.pdb

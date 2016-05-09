@@ -1,0 +1,38 @@
+﻿
+body {
+    background-image: url('plain.jpg');
+    background-size: cover;
+}
+
+
+/*
+#bg_img {
+    background-size: 100%;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+}
+*/
+.h1{
+    color: white;
+}
+
+input {
+    background-color: white;
+    -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+}
+
+input:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.screen {
+    background-color: white;
+}
+.screen:hover {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+

@@ -1,0 +1,74 @@
+﻿@model FootballDB.Models.PlayersTable
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PlayersTable</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Place_of_Birth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Place_of_Birth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Height)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Height)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Playing_Position)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Playing_Position)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Current_Team)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Current_Team)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.National_Team)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.National_Team)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

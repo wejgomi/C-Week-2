@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\Projects\SnowWhite\SnowWhite\bin\Debug\SnowWhite.exe.config
+C:\Users\student\Desktop\Projects\SnowWhite\SnowWhite\obj\Debug\SnowWhite.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Projects\SnowWhite\SnowWhite\bin\Debug\SnowWhite.exe
+C:\Users\student\Desktop\Projects\SnowWhite\SnowWhite\bin\Debug\SnowWhite.pdb
+C:\Users\student\Desktop\Projects\SnowWhite\SnowWhite\obj\Debug\SnowWhite.exe
+C:\Users\student\Desktop\Projects\SnowWhite\SnowWhite\obj\Debug\SnowWhite.pdb

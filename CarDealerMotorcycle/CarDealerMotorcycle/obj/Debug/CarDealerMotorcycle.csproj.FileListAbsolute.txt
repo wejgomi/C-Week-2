@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\Projects\CarDealerMotorcycle\CarDealerMotorcycle\bin\Debug\CarDealerMotorcycle.exe.config
+C:\Users\student\Desktop\Projects\CarDealerMotorcycle\CarDealerMotorcycle\obj\Debug\CarDealerMotorcycle.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Projects\CarDealerMotorcycle\CarDealerMotorcycle\bin\Debug\CarDealerMotorcycle.exe
+C:\Users\student\Desktop\Projects\CarDealerMotorcycle\CarDealerMotorcycle\bin\Debug\CarDealerMotorcycle.pdb
+C:\Users\student\Desktop\Projects\CarDealerMotorcycle\CarDealerMotorcycle\obj\Debug\CarDealerMotorcycle.exe
+C:\Users\student\Desktop\Projects\CarDealerMotorcycle\CarDealerMotorcycle\obj\Debug\CarDealerMotorcycle.pdb

@@ -1,0 +1,9 @@
+C:\Users\student\Desktop\Projects\Extension\Extension\bin\Debug\Extension.exe.config
+C:\Users\student\Desktop\Projects\Extension\Extension\bin\Debug\Extension.exe
+C:\Users\student\Desktop\Projects\Extension\Extension\bin\Debug\Extension.pdb
+C:\Users\student\Desktop\Projects\Extension\Extension\obj\Debug\Extension.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Projects\Extension\Extension\obj\Debug\Extension.CustomPictureViewer.resources
+C:\Users\student\Desktop\Projects\Extension\Extension\obj\Debug\Extension.Properties.Resources.resources
+C:\Users\student\Desktop\Projects\Extension\Extension\obj\Debug\Extension.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\Projects\Extension\Extension\obj\Debug\Extension.exe
+C:\Users\student\Desktop\Projects\Extension\Extension\obj\Debug\Extension.pdb

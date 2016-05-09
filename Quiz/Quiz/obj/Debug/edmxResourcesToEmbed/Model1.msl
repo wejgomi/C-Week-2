@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QuestionsModelStoreContainer" CdmEntityContainer="QuestionsEntities">
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="QuestionsModel.Question">
+        <MappingFragment StoreEntitySet="Questions">
+          <ScalarProperty Name="Questions" ColumnName="Questions" />
+          <ScalarProperty Name="Choices" ColumnName="Choices" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

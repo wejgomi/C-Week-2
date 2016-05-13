@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CustomersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\STUDENT\DESKTOP\PROJECTS\WEBAPPLICATION5\WEBAPPLICATION5\APP_DATA\CUSTOMERS.MDF.dbo.customer' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="customer">
+    <Key>
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Address" />
+      <PropertyRef Name="Town" />
+      <PropertyRef Name="Postcode" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Town" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Postcode" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\STUDENT\DESKTOP\PROJECTS\WEBAPPLICATION5\WEBAPPLICATION5\APP_DATA\CUSTOMERS.MDF.dbo.login' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="login">
+    <Key>
+      <PropertyRef Name="Login" />
+      <PropertyRef Name="Password" />
+      <PropertyRef Name="Name" />
+    </Key>
+    <Property Name="Login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\STUDENT\DESKTOP\PROJECTS\WEBAPPLICATION5\WEBAPPLICATION5\APP_DATA\CUSTOMERS.MDF.dbo.order' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="order">
+    <Key>
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="Item" />
+      <PropertyRef Name="Quantity" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Item" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="Shipping" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="CustomersModelStoreContainer">
+    <EntitySet Name="customer" EntityType="Self.customer" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [customer].[Name] AS [Name], 
+    [customer].[Address] AS [Address], 
+    [customer].[Town] AS [Town], 
+    [customer].[Postcode] AS [Postcode], 
+    [customer].[Phone] AS [Phone]
+    FROM [dbo].[customer] AS [customer]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="login" EntityType="Self.login" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [login].[Login] AS [Login], 
+    [login].[Password] AS [Password], 
+    [login].[Name] AS [Name]
+    FROM [dbo].[login] AS [login]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="order" EntityType="Self.order" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [order].[Name] AS [Name], 
+    [order].[Item] AS [Item], 
+    [order].[Quantity] AS [Quantity], 
+    [order].[Shipping] AS [Shipping]
+    FROM [dbo].[order] AS [order]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
